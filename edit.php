@@ -7,7 +7,7 @@
 
 <body>
 	<?php
-	$fh = fopen("guestbook.txt", "w") or die("Could not open file!");
+	$fh = fopen("pendaftar.txt", "w") or die("Could not open file!");
 	fclose($fh);
 	?>
 	<center>

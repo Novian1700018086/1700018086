@@ -1,0 +1,93 @@
+<html>
+
+<head>
+	<title>Kursus</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<div class="wrap">
+		<nav class="menu">
+			<ul>
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="#">Tutorial/E-book</a>
+				</li>
+				<li>
+					<a href="daftar.html">Pendaftaran</a>
+				</li>
+			</ul>
+		</nav>
+
+		<aside class="sidebar">
+			<div class="widget">
+				<h2>Tutorial</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+					et dolore magna aliqua.</p>
+			</div>
+			<div class="widget">
+				<h2>Ebook Gratis</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+					et dolore magna aliqua.</p>
+			</div>
+		</aside>
+
+
+
+		<div align="center"><strong>
+				<font size="6" face="Courier New, Courier, mono">PENDAFTARAN</font>
+			</strong></div>
+		<form name="form1" method="POST" action="aksi.php">
+			<center>
+				<table>
+					<tr>
+						<td>Nama Lengkap</td>
+						<td colspan="3" style="text-align: left;"><input type="text" name="nama" id="nama"></td>
+					</tr>
+					<tr>
+						<td>Asal Sekolah</td>
+						<td colspan="3" style="text-align: left;"><input type="text" name="asal" id="asal"></td>
+					</tr>
+					<tr>
+						<td>Alamat</td>
+						<td colspan="3" style="text-align: left;"><input type="text" name="alamat" id="alamat"></td>
+					</tr>
+					<tr>
+						<td>E-Mail</td>
+						<td colspan="3" style="text-align: left;"><input type="text" name="email" id="email"></td>
+					</tr>
+					<tr>
+						<td>Status</td>
+						<td colspan="3" style="text-align: left;"><select name="status" id="status">
+								<option>-Pilih-</option>
+								<option>Pelajar</option>
+								<option>Pekerja</option>
+							</select></td>
+					</tr>
+					<tr>
+						<td>Komentar</td>
+						<td colspan="3" style="text-align: left;"><textarea name="komentar" id="komentar"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="4" style="text-align: center;"><input type="submit" name="submit" value="Kirim">
+							<input type="reset" name="submit2" value="Batal"></td>
+					</tr>
+					<tr>
+						<td><a href="view.php" style="color:blue">Lihat pendaftar</a></td><br>
+						<td><a href="index.html" style="color:blue">Back Home</a></td><br>
+						<td><a href="delete.php" style="color:blue">Delete</a></td>
+						<td><a href="edit.php" style="color:blue">Edit</td></a>
+
+					</tr>
+
+
+				</table>
+			</center>
+		</form>
+	</div>
+</body>
+
+</html>
